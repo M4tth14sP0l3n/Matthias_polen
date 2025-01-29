@@ -34,7 +34,7 @@
     
     <section id="cv">
         <h2>CV</h2>
-        <p>Bekijk mijn volledige cv <a href="cv.pdf" target="_blank">hier</a>.</p>
+        <p>Bekijk mijn volledige cv <a href="assets/cv.pdf" target="_blank">hier</a>.</p>
     </section>
     
     <section id="projects">
@@ -44,8 +44,34 @@
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Neem contact met mij op via e-mail: <a href="mailto:matthias.polen@gmail.com">matthias.polen@gmail.com</a></p>
+        
+        <p>Neem contact met mij op via e-mail: 
+            <a href="mailto:matthias.polen@gmail.com">matthias.polen@gmail.com</a>
+        </p>
+    
+        <p>Of vul het formulier hieronder in:</p>
+    
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Verstuur</button>
+        </form>
+    
+        <h3>Volg mij op:</h3>
+        <ul>
+            <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/yourinstagram" target="_blank">Instagram</a></li>
+        </ul>
     </section>
+    
     
     <footer>
         <p>&copy; 2025 matthias polen - Alle rechten voorbehouden.</p>
